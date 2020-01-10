@@ -7,4 +7,15 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+.header {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
 
