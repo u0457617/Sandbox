@@ -48,7 +48,10 @@ body {
   margin-bottom: 80px;
   margin-top: 0;
   text-transform: uppercase; 
-  transition: background .5s; 
+  transition: background .5s;
+}
+  .boxed {
+  border: 1px solid black ;
 }
 
 .btn {
