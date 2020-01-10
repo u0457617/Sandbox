@@ -7,6 +7,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
 .header {
   background: url(https://get.pxhere.com/photo/desk-computer-writing-table-workspace-desktop-gadget-monitor-brand-design-172944.jpg) no-repeat center center; 
   background-size: cover;
@@ -33,6 +40,7 @@ body {
     font-size: 120px;
   }
 }
+
 .header p {
   color: #fff;
   font-weight: 500;
@@ -73,3 +81,17 @@ body {
   transition: background .5s; 
 }
 
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
