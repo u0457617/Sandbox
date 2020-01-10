@@ -23,7 +23,7 @@ body {
 
 .header .container {
   position: relative;
-  top: 200px;
+  top: 10ths 70px;
 }
 
 .header h1 {
@@ -48,6 +48,7 @@ body {
   margin-bottom: 80px;
   margin-top: 0;
   text-transform: uppercase; 
+  transition: background .5s; 
 }
 
 .btn {
