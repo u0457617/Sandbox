@@ -50,8 +50,8 @@ body {
   text-transform: uppercase; 
   transition: background .5s;
 }
-  .boxed {
-  border: 1px solid black ;
+  .square {
+  border: 5px solid black ;
 }
 
 .btn {
